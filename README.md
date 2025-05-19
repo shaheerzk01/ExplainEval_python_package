@@ -122,4 +122,4 @@ We welcome contributions! To contribute:
 
 ## 📬 Contact
 
-Have questions or feedback? Open an issue or contact us at [your@email.com](mailto:shaheerzk01@gmail.com)
+Have questions or feedback? Open an issue or contact us at [shaheerzk01@gmail.com](mailto:shaheerzk01@gmail.com)
