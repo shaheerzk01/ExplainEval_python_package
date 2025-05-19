@@ -105,7 +105,7 @@ print(results)
 
 ## 📄 License
 
-MIT License © 2025 Your Name
+MIT License © 2025 Shaheer Zaman Khan
 
 ---
 
@@ -122,4 +122,4 @@ We welcome contributions! To contribute:
 
 ## 📬 Contact
 
-Have questions or feedback? Open an issue or contact us at [your@email.com](mailto:your@email.com)
+Have questions or feedback? Open an issue or contact us at [your@email.com](mailto:shaheerzk01@gmail.com)
