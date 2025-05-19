@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <title>ExplainEval Report</title>
+  </head>
+  <body>
+    <h1>{{ task }} - Evaluation Report</h1>
+    {% for key, value in metrics.items() %}
+    <h2>{{ key }}</h2>
+    <pre>{{ value }}</pre>
+    {% endfor %}
+  </body>
+</html>
