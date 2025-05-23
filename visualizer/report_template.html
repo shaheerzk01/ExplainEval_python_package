@@ -1,12 +1,37 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>ExplainEval Report</title>
-  </head>
-  <body>
-    <h1>{{ task }} - Evaluation Report</h1>
-    {% for key, value in metrics.items() %}
-    <h2>{{ key }}</h2>
-    <pre>{{ value }}</pre>
-    {% endfor %}
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>ExplainEval Report</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f8f9fa;
+      padding: 30px;
+    }
+
+    h1 {
+      color: #2b6777;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 10px;
+    }
+
+    pre {
+      background: #f0f0f0;
+      padding: 20px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>ExplainEval Report</h1>
+  <p><strong>Task:</strong> {{ task | capitalize }}</p>
+
+  <h2>Metrics</h2>
+  <pre>{{ metrics | tojson(indent=2) }}</pre>
+</body>
+
 </html>

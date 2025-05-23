@@ -1,10 +1,10 @@
-from core.classification import ClassificationEvaluator
-from core.regression import RegressionEvaluator
-from core.nlp import NLPEvaluator
-from core.timeseries import TimeSeriesEvaluator
+from explaineval.core.classification import ClassificationEvaluator
+from explaineval.core.regression import RegressionEvaluator
+from explaineval.core.nlp import NLPEvaluator
+from explaineval.core.timeseries import TimeSeriesEvaluator
 
-from explainers.shap_explainer import ShapExplainer
-from visualizer.dashboard import generate_html_report
+from explaineval.explainers.shap_explainer import ShapExplainer
+from explaineval.visualizer.dashboard import generate_html_report
 
 
 class EvalX:
